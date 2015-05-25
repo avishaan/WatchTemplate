@@ -18,6 +18,8 @@ class LabelInterfaceController: WKInterfaceController {
     super.awakeWithContext(context)
     
     // Configure interface objects here.
+    myLabel.setText("Hello World")
+    myLabel.setTextColor(UIColor.redColor())
   }
   
   override func willActivate() {
