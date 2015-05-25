@@ -18,13 +18,14 @@ class LabelInterfaceController: WKInterfaceController {
     super.awakeWithContext(context)
     
     // Configure interface objects here.
-    myLabel.setText("Hello World")
-    myLabel.setTextColor(UIColor.redColor())
+//    myLabel.setText("Hello World")
+//    myLabel.setTextColor(UIColor.redColor())
     
     // customize our fonts
     var boldFont = UIFont(name: "Exo-Bold", size: 15.0)!
     var attributesDictionary = [
-      NSFontAttributeName: boldFont
+      NSFontAttributeName: boldFont,
+      NSForegroundColorAttributeName: UIColor.redColor()
     ]
     var attributedString = NSAttributedString(string: "Hello Class", attributes: attributesDictionary)
     myLabel.setAttributedText(attributedString)
