@@ -31,5 +31,11 @@
 	<string>com.avishaan.WatchKitUI</string>
 	<key>WKWatchKitApp</key>
 	<true/>
+	<key>UIAppFonts</key>
+	<array>
+		<string>Exo-Black.otf</string>
+		<string>Exo-BlackItalic.otf</string>
+		<string>Exo-Bold.otf</string>
+	</array>
 </dict>
 </plist>

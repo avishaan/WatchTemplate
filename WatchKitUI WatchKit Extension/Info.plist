@@ -32,6 +32,12 @@
 		<key>NSExtensionPointIdentifier</key>
 		<string>com.apple.watchkit</string>
 	</dict>
+	<key>UIAppFonts</key>
+	<array>
+		<string>Exo-Black.otf</string>
+		<string>Exo-BlackItalic.otf</string>
+		<string>Exo-Bold.otf</string>
+	</array>
 	<key>RemoteInterfacePrincipalClass</key>
 	<string>$(PRODUCT_MODULE_NAME).InterfaceController</string>
 </dict>
