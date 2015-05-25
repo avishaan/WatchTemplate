@@ -19,6 +19,9 @@
                             </variation>
                         </label>
                     </items>
+                    <connections>
+                        <outlet property="myLabel" destination="Ubo-cb-hzX" id="JpH-jM-B4O"/>
+                    </connections>
                 </controller>
             </objects>
         </scene>
