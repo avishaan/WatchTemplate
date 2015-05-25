@@ -20,6 +20,15 @@ class LabelInterfaceController: WKInterfaceController {
     // Configure interface objects here.
     myLabel.setText("Hello World")
     myLabel.setTextColor(UIColor.redColor())
+    
+    // customize our fonts
+    var boldFont = UIFont(name: "Exo-Bold", size: 15.0)!
+    var attributesDictionary = [
+      NSFontAttributeName: boldFont
+    ]
+    var attributedString = NSAttributedString(string: "Hello Class", attributes: attributesDictionary)
+    myLabel.setAttributedText(attributedString)
+    
   }
   
   override func willActivate() {
